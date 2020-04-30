@@ -84,7 +84,15 @@
                       <span class="font-semibold text-center text-lg px-2 py-1 hidden">Documents</span>
                   </div>
                   <div class="hover:bg-green-500 text-gray-100 px-2 py-2 flex rounded mb-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current" width="24" height="24"><path class="heroicon-ui" d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/></svg>
+                      <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24" class="fill-current"
+                          width="24"
+                          height="24"
+                      >
+                          <path class="heroicon-ui"
+                                d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                      </svg>
                       <span class="font-semibold text-center text-lg px-2 py-1 hidden">Reports</span>
                   </div>
               </div>
@@ -108,8 +116,85 @@
       <div class="min-h-full w-3/4 bg-white xl:overflow-y-auto">
           @include('layouts.navbar')
           <div class="px-10 py-8">
-              <h1 class="text-3xl font-bold mb-4">Dashboard</h1>
-
+              <h1 class="text-3xl font-bold">Dashboard</h1>
+              <div class="flex items-center justify-between px-2 py-6">
+                  <div class="rounded border-l-4 bg-gray-200 border-indigo-600 w-56 h-24 text-center">
+                      <div class="flex items-center justify-between px-4 py-8">
+                          <div class="flex-1 text-left">
+                              <div class="text-xs font-semibold uppercase text-indigo-600 mb-2">earnings (monthly)</div>
+                              <div class="text-lg font-bold text-gray-700">$40,000</div>
+                          </div>
+                          <div class="text-right">
+                              <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  width="50"
+                                  height="40"
+                              >
+                                  <path class="heroicon-ui"
+                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                              </svg>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ml-4 rounded border-l-4 bg-gray-200 border-green-600 w-56 h-24 text-center">
+                      <div class="flex items-center justify-between px-4 py-8">
+                          <div class="flex-1 text-left">
+                              <div class="text-xs font-semibold uppercase text-green-600 mb-2">EARNINGS (ANNUAL)</div>
+                              <div class="text-lg font-bold text-gray-700">$215,000</div>
+                          </div>
+                          <div class="text-right">
+                              <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  width="50"
+                                  height="40"
+                              >
+                                  <path class="heroicon-ui"
+                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                              </svg>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ml-4 rounded border-l-4 bg-gray-200 border-purple-600 w-56 h-24 text-center">
+                      <div class="flex items-center justify-between px-4 py-8">
+                          <div class="flex-1 text-left">
+                              <div class="text-xs font-semibold uppercase text-purple-600 mb-2">TASKS</div>
+                              <div class="text-lg font-bold text-gray-700">50%</div>
+                          </div>
+                          <div class="text-right">
+                              <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  width="50"
+                                  height="40"
+                              >
+                                  <path class="heroicon-ui"
+                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                              </svg>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ml-4 rounded border-l-4 bg-gray-200 border-orange-400 w-56 h-24 text-center">
+                      <div class="flex items-center justify-between px-4 py-8">
+                          <div class="flex-1 text-left">
+                              <div class="text-xs font-semibold uppercase text-orange-400 mb-2">PENDING REQUESTS</div>
+                              <div class="text-lg font-bold text-gray-700">18</div>
+                          </div>
+                          <div class="text-right">
+                              <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  width="50"
+                                  height="40"
+                              >
+                                  <path class="heroicon-ui"
+                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                              </svg>
+                          </div>
+                      </div>
+                  </div>
+              </div>
               <div class="rounded border-dashed border-4 border-gray-300 w-full h-64 text-center justify-center">
                   <div class="px-16 py-16">
                       <img class="h-16 w-16 rounded origin-bottom-left transform -rotate-45 hover:rotate-0 transition duration-150 ease-in-out shadow-xl hover:shadow-orange-xl" src="/images/rix.jpg" alt="" />
