@@ -127,12 +127,12 @@
                           <div class="text-right">
                               <svg
                                   xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  viewBox="0 0 24 24"
+                                  class="fill-current text-gray-400"
                                   width="50"
-                                  height="40"
-                              >
+                                  height="50">
                                   <path class="heroicon-ui"
-                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                                        d="M17 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h2V3a1 1 0 1 1 2 0v1h6V3a1 1 0 0 1 2 0v1zm-2 2H9v1a1 1 0 1 1-2 0V6H5v4h14V6h-2v1a1 1 0 0 1-2 0V6zm4 6H5v8h14v-8z"/>
                               </svg>
                           </div>
                       </div>
@@ -146,20 +146,21 @@
                           <div class="text-right">
                               <svg
                                   xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 24 24" class="fill-current text-gray-400"
+                                  viewBox="0 0 24 24"
+                                  class="fill-current text-gray-400"
                                   width="50"
-                                  height="40"
-                              >
-                                  <path class="heroicon-ui"
-                                        d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
+                                  height="50">
+                                  <path
+                                      class="heroicon-ui"
+                                      d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-11v2h1a3 3 0 0 1 0 6h-1v1a1 1 0 0 1-2 0v-1H8a1 1 0 0 1 0-2h3v-2h-1a3 3 0 0 1 0-6h1V6a1 1 0 0 1 2 0v1h3a1 1 0 0 1 0 2h-3zm-2 0h-1a1 1 0 1 0 0 2h1V9zm2 6h1a1 1 0 0 0 0-2h-1v2z"/>
                               </svg>
                           </div>
                       </div>
                   </div>
-                  <div class="lg:ml-4 rounded border-l-4 bg-gray-200 border-purple-600 w-56 h-24 text-center mb-2">
+                  <div class="lg:ml-4 rounded border-l-4 bg-gray-200 border-teal-400 w-56 h-24 text-center mb-2">
                       <div class="flex items-center justify-between px-4 py-8">
                           <div class="flex-1 text-left">
-                              <div class="text-xs font-semibold uppercase text-purple-600 mb-2">TASKS</div>
+                              <div class="text-xs font-semibold uppercase text-teal-400 mb-2">TASKS</div>
                               <div class="text-lg font-bold text-gray-700">50%</div>
                           </div>
                           <div class="text-right">
@@ -195,8 +196,18 @@
                       </div>
                   </div>
               </div>
-              <div class="rounded border-dashed border-4 border-gray-300 w-full h-64 text-center justify-center">
-                  <div class="px-16 py-16">
+
+              <div class="grid lg:grid-cols-2 grid-cols-1 mb-4">
+                  <div class="shadow-lg mb-2 h-20 bg-teal-400">
+                    l
+                  </div>
+                  <div class="shadow-lg lg:ml-4 lg:w-3/5 h-20 bg-teal-800">
+                      s
+                  </div>
+              </div>
+
+              <div class="rounded border-dashed border-4 border-gray-300 w-full h-64">
+                  <div class="px-64 py-24">
                       <img class="h-16 w-16 rounded origin-bottom-left transform -rotate-45 hover:rotate-0 transition duration-150 ease-in-out shadow-xl hover:shadow-orange-xl" src="/images/rix.jpg" alt="" />
                   </div>
               </div>
