@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="h-screen flex xl:overflow-y-hidden">
-      <div x-data="{ open: true }" class="min-h-full w-1/4 bg-green-400 flex-none flex flex-col justify-between">
+      <div x-data="{ open: true }" class="min-h-full w-1/5 bg-green-400 flex-none flex flex-col justify-between">
          <div class="bg-green-500 px-4 py-3 flex">
              <img class="h-10 w-10 rounded-full" src="/images/white.svg" alt="" />
              <h1 class="ml-2 text-white font-bold text-2xl py-1 hidden md:block lg:block">Dashers</h1>
@@ -113,7 +113,7 @@
           </div>
       </div>
 
-      <div class="min-h-full w-3/4 bg-white xl:overflow-y-auto">
+      <div class="min-h-full w-4/5 bg-white xl:overflow-y-auto">
           @include('layouts.navbar')
           <div class="px-10 py-8">
               <h1 class="text-3xl font-bold">Dashboard</h1>
@@ -197,11 +197,11 @@
                   </div>
               </div>
 
-              <div class="grid lg:grid-cols-2 grid-cols-1 mb-4">
-                  <div class="shadow-lg mb-2 h-20 bg-teal-400">
-                    l
+              <div class="flex mb-4">
+                  <div class="shadow-lg lg:w-3/5 mb-2">
+                      {!! $chart->container() !!}
                   </div>
-                  <div class="shadow-lg lg:ml-4 lg:w-3/5 h-20 bg-teal-800">
+                  <div class="shadow-lg lg:ml-4 lg:w-2/5 h-20 bg-teal-800">
                       s
                   </div>
               </div>

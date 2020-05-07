@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="34" viewBox="0 0 48 34">
+  <title>switch-on</title>
+  <g>
+    <circle cx="31" cy="17" r="9" opacity="0.5"/>
+    <circle cx="31" cy="17" r="9" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <rect x="2" y="2" width="44" height="30" rx="15" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

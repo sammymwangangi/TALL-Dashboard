@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="44.26" viewBox="0 0 48 44.26">
+  <title>edit-field</title>
+  <g>
+    <g>
+      <path d="M31,6.26a4.406,4.406,0,0,0-6-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M31,6.26a4.406,4.406,0,0,1,6-4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line x1="31" y1="6.26" x2="31" y2="38.26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M31,38a4.406,4.406,0,0,0,6,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M31,38a4.406,4.406,0,0,1-6,4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M38,31.26h2a6,6,0,0,0,6-6v-7a6,6,0,0,0-6-6H38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path d="M24,12.26H8a6,6,0,0,0-6,6v7a6,6,0,0,0,6,6H24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

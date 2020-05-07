@@ -11,7 +11,7 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <livewire:styles>
+    <livewire:styles/>
         </head>
 <body class="bg-gray-100 h-screen antialiased leading-none">
 <div id="app">
@@ -19,8 +19,10 @@
 </div>
 
 <!-- Scripts -->
-<livewire:scripts>
+<livewire:scripts/>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" charset="utf-8"></script>
+    {!! $chart->script() !!}
 </body>
 </html>

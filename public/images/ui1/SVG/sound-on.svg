@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="36.128" viewBox="0 0 48 36.128">
+  <title>sound-on</title>
+  <g>
+    <path d="M20.643,2.534l-9.068,8.372a2,2,0,0,1-1.357.53H6a4,4,0,0,0-4,4v6a4,4,0,0,0,4,4h4.267a2,2,0,0,1,1.292.473l9.149,7.742A2,2,0,0,0,24,32.124V4A2,2,0,0,0,20.643,2.534Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <path d="M32,13.794a5.6,5.6,0,1,1,0,11.2" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <path d="M32,5.394a14,14,0,0,1,0,28" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

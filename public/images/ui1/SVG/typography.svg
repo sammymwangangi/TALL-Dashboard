@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="32" viewBox="0 0 48 32">
+  <title>typography</title>
+  <g>
+    <g>
+      <line x1="2" y1="30" x2="13" y2="2" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="24" y1="30" x2="13" y2="2" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="5.667" y1="20.621" x2="20.333" y2="20.621" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M46,30s-3.765,0-3.765-3.765V15.441c0-6.21-6.7-5.146-9.911-2.264" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path d="M42.235,14.88c0,2.885-2.165,4.233-6.559,5.247C30.77,21.259,29.8,24.014,30,26.235A4.168,4.168,0,0,0,34.371,30c3.933,0,7.864-2.474,7.864-7.206" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

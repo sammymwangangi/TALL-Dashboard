@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.288" height="48" viewBox="0 0 46.288 48">
+  <title>visibility-off</title>
+  <g>
+    <g>
+      <path d="M24.6,16.709a7.362,7.362,0,0,0-1.457-.145,7.5,7.5,0,0,0-3.019,14.359Z" fill-rule="evenodd" opacity="0.5"/>
+      <path d="M24.6,16.709a7.362,7.362,0,0,0-1.457-.145,7.5,7.5,0,0,0-3.019,14.359" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4" fill-rule="evenodd"/>
+      <path d="M27.332,30.286a7.476,7.476,0,0,0,2.8-8.926" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4" fill-rule="evenodd"/>
+    </g>
+    <ellipse cx="19.357" cy="19.555" rx="4.944" ry="3.26" transform="translate(-8.085 17.554) rotate(-41.121)"/>
+    <g>
+      <path d="M26.856,9.48a17.121,17.121,0,0,0-3.714-.416c-9.684,0-17.161,8.345-20.336,12.586a4.017,4.017,0,0,0,0,4.828c2.566,3.428,7.946,9.532,15.028,11.747" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4" fill-rule="evenodd"/>
+      <path d="M24.6,38.987c9-.776,15.879-8.488,18.883-12.513a4.017,4.017,0,0,0,0-4.82,37.29,37.29,0,0,0-10.4-9.681" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4" fill-rule="evenodd"/>
+    </g>
+    <line x1="29.204" y1="2" x2="15.394" y2="46" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

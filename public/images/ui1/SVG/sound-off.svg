@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.243" height="36.128" viewBox="0 0 42.243 36.128">
+  <title>sound-off</title>
+  <g>
+    <path d="M20.643,2.534l-9.068,8.372a2,2,0,0,1-1.357.53H6a4,4,0,0,0-4,4v6a4,4,0,0,0,4,4h4.267a2,2,0,0,1,1.292.473l9.149,7.742A2,2,0,0,0,24,32.124V4A2,2,0,0,0,20.643,2.534Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <g>
+      <line x1="40.243" y1="13.821" x2="31.757" y2="22.306" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="40.243" y1="22.307" x2="31.757" y2="13.821" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

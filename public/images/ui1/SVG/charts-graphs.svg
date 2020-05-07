@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="43.428" viewBox="0 0 48 43.428">
+  <title>charts-graphs</title>
+  <g>
+    <polyline points="46 2 27.143 20.857 20.857 14.571 2 33.429" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M28.557,27.271a2,2,0,0,1-2.828,0L20.857,22.4,3.414,39.843a1.985,1.985,0,0,1-1.277.573A3.992,3.992,0,0,0,6,43.428H42a4,4,0,0,0,4-4V9.828Z" opacity="0.5"/>
+  </g>
+</svg>

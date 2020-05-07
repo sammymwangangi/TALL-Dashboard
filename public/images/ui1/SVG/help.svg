@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.011" height="48.011" viewBox="0 0 48.011 48.011">
+  <title>help</title>
+  <g>
+    <circle cx="24.006" cy="24.006" r="22" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <g>
+      <path d="M13.877,19.716a10.965,10.965,0,0,1,6-5.906L15.747,3.615h0a21.929,21.929,0,0,0-12,11.812h0Z" opacity="0.5"/>
+      <path d="M34.2,19.876l10.2-4.129h0a21.936,21.936,0,0,0-11.812-12L28.3,13.877A10.96,10.96,0,0,1,34.2,19.876Z" opacity="0.5"/>
+      <path d="M44.264,32.585,34.135,28.3a10.961,10.961,0,0,1-6,5.906l4.13,10.2h0a21.934,21.934,0,0,0,12-11.812Z" opacity="0.5"/>
+      <path d="M19.716,34.135a10.968,10.968,0,0,1-5.906-6L3.615,32.264h0a21.926,21.926,0,0,0,11.812,12l4.289-10.129Z" opacity="0.5"/>
+    </g>
+    <circle cx="24.006" cy="24.006" r="21.994" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    <g>
+      <polyline points="3.747 15.427 3.747 15.427 13.877 19.716" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="19.877 13.81 15.747 3.615 15.747 3.615 15.747 3.615" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="34.201 19.876 44.397 15.747 44.397 15.747" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line x1="32.585" y1="3.747" x2="28.295" y2="13.877" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="28.135 34.201 32.265 44.397 32.265 44.397 32.265 44.397" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="44.264 32.585 44.264 32.585 34.135 28.295" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="13.81 28.135 3.615 32.264 3.615 32.264" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <polyline points="15.427 44.264 19.716 34.135 19.716 34.135" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <circle cx="24.006" cy="24.006" r="10.999" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

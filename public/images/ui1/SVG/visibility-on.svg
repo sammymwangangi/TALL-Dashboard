@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.288" height="34" viewBox="0 0 46.288 34">
+  <title>visibility-on</title>
+  <g>
+    <circle cx="23.145" cy="17" r="7.5" opacity="0.5"/>
+    <path d="M23.142,2C13.458,2,5.981,10.345,2.806,14.586a4.017,4.017,0,0,0,0,4.828C5.981,23.655,13.458,32,23.142,32c9.712,0,17.178-8.35,20.343-12.59a4.017,4.017,0,0,0,0-4.82C40.32,10.35,32.854,2,23.142,2Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4" fill-rule="evenodd"/>
+    <circle cx="23.145" cy="17" r="7.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <ellipse cx="19.357" cy="12.491" rx="4.944" ry="3.26" transform="matrix(0.753, -0.658, 0.658, 0.753, -3.44, 15.811)"/>
+  </g>
+</svg>

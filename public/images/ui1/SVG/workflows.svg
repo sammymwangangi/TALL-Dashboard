@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" viewBox="0 0 48 40">
+  <title>workflows</title>
+  <g>
+    <rect x="34" y="2" width="12" height="12" rx="4.382" opacity="0.5"/>
+    <rect x="34" y="26" width="12" height="12" rx="4.382" opacity="0.5"/>
+    <rect x="2" y="14" width="12" height="12" rx="4.382" stroke-width="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="34" y="2" width="12" height="12" rx="4.382" stroke-width="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="34" y="26" width="12" height="12" rx="4.382" stroke-width="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M14,20h2c9,0,7-12,16-12h2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path d="M14,20h2c9,0,7,12,16,12h2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>
