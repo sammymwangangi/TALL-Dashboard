@@ -201,8 +201,8 @@
                   <div class="shadow-lg lg:w-3/5 mb-2">
                       {!! $chart->container() !!}
                   </div>
-                  <div class="shadow-lg lg:ml-4 lg:w-2/5 h-20 bg-teal-800">
-                      s
+                  <div class="shadow-lg lg:ml-4 lg:w-2/5">
+                      {!! $chart2->container() !!}
                   </div>
               </div>
 
