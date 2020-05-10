@@ -197,7 +197,7 @@
                   </div>
               </div>
 
-              <div class="flex mb-4">
+              <div class="lg:flex mb-4">
                   <div class="shadow-lg lg:w-3/5 mb-2">
                       {!! $chart->container() !!}
                   </div>
