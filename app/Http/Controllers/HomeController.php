@@ -21,13 +21,13 @@ class HomeController extends Controller
         $bar = new SampleChart;
         $bar->labels(["January", "February", "March", "April", "May", "June"]);
         $bar->dataset('Revenue', 'bar', [4215, 5312, 6251, 7841, 9821, 14984])
-            ->backgroundColor("#68d391)")
+            ->backgroundColor("rgba(78, 115, 223, 0.05)")
             ->color("#68d391")
         ;
 
         $chart2 = new SampleChart;
         $chart2->labels(["Direct", "Referral", "Social"]);
-        $chart2->dataset('My dataset', 'pie', [55, 30, 15])->backgroundColor('#68d391', '#1cc88a', '#36b9cc');
+        $chart2->dataset('My dataset', 'pie', [55, 30, 15])->backgroundColor(['#4e73df', '#1cc88a', '#36b9cc']);
         return view('home', compact('chart', 'chart2'));
     }
 
