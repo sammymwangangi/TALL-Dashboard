@@ -141,7 +141,7 @@
           <div class="px-10 py-8">
               <h1 class="text-3xl text-gray-600 font-semibold">Dashboard</h1>
               <div class="lg:flex items-center justify-between px-2 py-6">
-                  <div class="rounded border-l-4 bg-white border-indigo-600 shadow-xl w-56 h-24 text-center mb-2">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl rounded border-l-4 bg-white border-indigo-600 shadow-xl w-56 h-24 text-center mb-2">
                       <div class="flex items-center justify-between px-4 py-8">
                           <div class="flex-1 text-left">
                               <div class="text-xs font-semibold uppercase text-indigo-600 mb-2">earnings (monthly)</div>
@@ -160,7 +160,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="lg:ml-4 rounded border-l-4 bg-white border-green-600 shadow-xl w-56 h-24 text-center mb-2">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl lg:ml-4 rounded border-l-4 bg-white border-green-600 shadow-xl w-56 h-24 text-center mb-2">
                       <div class="flex items-center justify-between px-4 py-8">
                           <div class="flex-1 text-left">
                               <div class="text-xs font-semibold uppercase text-green-600 mb-2">EARNINGS (ANNUAL)</div>
@@ -180,7 +180,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="lg:ml-4 rounded border-l-4 bg-white border-teal-400 shadow-xl w-56 h-24 text-center mb-2">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl lg:ml-4 rounded border-l-4 bg-white border-teal-400 shadow-xl w-56 h-24 text-center mb-2">
                       <div class="flex items-center justify-between px-4 py-8">
                           <div class="flex-1 text-left">
                               <div class="text-xs font-semibold uppercase text-teal-400 mb-2">TASKS</div>
@@ -199,7 +199,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="lg:ml-4 rounded border-l-4 bg-white border-orange-400 shadow-xl w-56 h-24 text-center mb-2">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:shadow-2xl lg:ml-4 rounded border-l-4 bg-white border-orange-400 shadow-xl w-56 h-24 text-center mb-2">
                       <div class="flex items-center justify-between px-4 py-8">
                           <div class="flex-1 text-left">
                               <div class="text-xs font-semibold uppercase text-orange-400 mb-2">PENDING REQUESTS</div>
