@@ -228,22 +228,22 @@
               </div>
 
               <div class="lg:flex mb-4">
-                  <div class="shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">
                       {!! $chart->container() !!}
                   </div>
-                  <div class="shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">
+                  <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">
                       {!! $chart2->container() !!}
                   </div>
               </div>
 
-              <div class="rounded border-dashed border-4 border-gray-300 w-full h-64">
+              {{-- <div class="rounded border-dashed border-4 border-gray-300 w-full h-64">
                   <div class="px-64 py-24">
                       <img class="h-16 w-16 rounded origin-bottom-left transform -rotate-45 hover:rotate-0 transition duration-150 ease-in-out shadow-xl hover:shadow-orange-xl" src="/images/lid.jpg" alt="" />
                       <img class="h-16 w-16 shadow-xl" src="/images/dustbin.jpg" alt="" />
                   </div>
 
 
-              </div>
+              </div> --}}
           </div>
       </div>
     </div>
