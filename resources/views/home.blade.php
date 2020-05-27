@@ -158,15 +158,7 @@
                                 <div class="text-lg font-bold text-gray-700">$40,000</div>
                             </div>
                             <div class="text-right">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    class="fill-current text-gray-400"
-                                    width="50"
-                                    height="50">
-                                    <path class="heroicon-ui"
-                                            d="M17 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h2V3a1 1 0 1 1 2 0v1h6V3a1 1 0 0 1 2 0v1zm-2 2H9v1a1 1 0 1 1-2 0V6H5v4h14V6h-2v1a1 1 0 0 1-2 0V6zm4 6H5v8h14v-8z"/>
-                                </svg>
+                                <svg class="fill-current text-indigo-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><title>money-wallet-open</title><g><path d="M20.5.305h-17a3.535 3.535 0 0 0-3.5 3.5v13a4.5 4.5 0 0 0 3.306 4.174L14.465 23.6a2.929 2.929 0 0 0 2.487-.489A2.863 2.863 0 0 0 18 20.805v-9.692a4.264 4.264 0 0 0-3.119-4.1L4.056 4.028a.75.75 0 1 1 .4-1.446l3.534.975H20.5a.75.75 0 1 1 0 1.5h-5.235a.25.25 0 0 0-.067.491l.086.024a5.719 5.719 0 0 1 2.9 1.894.254.254 0 0 0 .194.091H20.5a.75.75 0 0 1 0 1.5h-1.038a.249.249 0 0 0-.238.327 5.609 5.609 0 0 1 .281 1.731v6.942a.25.25 0 0 0 .25.25h.745a3.5 3.5 0 0 0 3.5-3.5v-11A3.5 3.5 0 0 0 20.5.305zm-5 15a2 2 0 1 1-2-2 2 2 0 0 1 2 2z"></path></g></svg>
                             </div>
                         </div>
                     </div>
@@ -177,16 +169,7 @@
                                 <div class="text-lg font-bold text-gray-700">$215,000</div>
                             </div>
                             <div class="text-right">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    class="fill-current text-gray-400"
-                                    width="50"
-                                    height="50">
-                                    <path
-                                        class="heroicon-ui"
-                                        d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-11v2h1a3 3 0 0 1 0 6h-1v1a1 1 0 0 1-2 0v-1H8a1 1 0 0 1 0-2h3v-2h-1a3 3 0 0 1 0-6h1V6a1 1 0 0 1 2 0v1h3a1 1 0 0 1 0 2h-3zm-2 0h-1a1 1 0 1 0 0 2h1V9zm2 6h1a1 1 0 0 0 0-2h-1v2z"/>
-                                </svg>
+                                <svg class="fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>currency-dollar</title><g><path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm1-5h1a3 3 0 0 0 0-6H7.99a1 1 0 0 1 0-2H14V5h-3V3H9v2H8a3 3 0 1 0 0 6h4a1 1 0 1 1 0 2H6v2h3v2h2v-2z"></path></g></svg>
                             </div>
                         </div>
                     </div>
@@ -197,15 +180,7 @@
                                 <div class="text-lg font-bold text-gray-700">50%</div>
                             </div>
                             <div class="text-right">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24" class="fill-current text-gray-400"
-                                    width="50"
-                                    height="40"
-                                >
-                                    <path class="heroicon-ui"
-                                            d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
-                                </svg>
+                                <svg class="fill-current text-teal-400" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>pin</title><g><path d="M11 12h6v-1l-3-1V2l3-1V0H3v1l3 1v8l-3 1v1h6v7l1 1 1-1v-7z"></path></g></svg>
                             </div>
                         </div>
                     </div>
@@ -216,16 +191,10 @@
                                 <div class="text-lg font-bold text-gray-700">18</div>
                             </div>
                             <div class="text-right">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24" class="fill-current text-gray-400"
-                                    width="50"
-                                    height="40"
-                                >
-                                    <path class="heroicon-ui"
-                                            d="M20 22H4a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h4V8c0-1.1.9-2 2-2h4V4c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2zM14 8h-4v12h4V8zm-6 4H4v8h4v-8zm8-8v16h4V4h-4z"/>
-                                </svg>
+                                {{-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100"><title>31</title><g><g id="31.-Papers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path id="Layer-1" stroke="#E4EBF4" stroke-width="4" fill="#E4EBF4" d="M24 90h52v8H24z"></path><path id="Layer-2" stroke="#D1DDEB" stroke-width="4" fill="#D1DDEB" d="M20 82h60v8H20z"></path><path id="Layer-3" stroke="#C1D0E0" stroke-width="4" fill="#C1D0E0" d="M16 74h68v8H16z"></path><path id="Layer-4" stroke="#A4B8CE" stroke-width="4" fill="#A4B8CE" d="M72.069 2L12 2.18v71.895h76V17.758L72.25 2.18z"></path><path id="Layer-5" stroke="#8DA1B7" stroke-width="4" fill="#8DA1B7" d="M88 18H72V2z"></path></g></g></svg> --}}
+                                <svg class="fill-current text-orange-400" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>inbox-download</title><g fill="text-orange-400"><path d="M0 2C0 .9.9 0 2 0h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm14 12h4V2H2v12h4c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2zM9 8V5h2v3h3l-4 4-4-4h3z"></path></g></svg>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -322,6 +291,24 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+
+                <div class="rounded border-dashed border-4 border-gray-300 w-full h-64 bg-white">
+                    <div class="px-64 py-24">
+                        {{-- <img class="h-16 w-16 rounded origin-bottom-left transform -rotate-45 hover:rotate-0 transition duration-150 ease-in-out shadow-xl hover:shadow-orange-xl" src="/images/lid.jpg" alt="" /> --}}
+                        {{-- <img class="h-16 w-16 shadow-xl" src="/images/dustbin.jpg" alt="" /> --}}
+                        <svg class="origin-bottom-left transform rotate-45 hover:rotate-90 transition duration-150 ease-in-out mb-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="undefined ns-fill-0" fill="" width="50" height="50">
+                            <title>ionicons-v5-g</title>
+                            <path d="M237.65 176.1L144 176.1 144 335.9 237.65 335.9 368 440 368 72 237.65 176.1z"/>
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="undefined ns-fill-0" fill="#000" width="50" height="50">
+                            <title>ionicons-v5_logos</title>
+                            <path d="M483.13,32.23a19.81,19.81,0,0,0-2.54-.23h-449C23,31.88,16.12,38.88,16,47.75a11.52,11.52,0,0,0,.23,2.8L81.53,461.8a22.54,22.54,0,0,0,7,12.95h0a20,20,0,0,0,13.5,5.25H415.18a15.46,15.46,0,0,0,15.34-13.42L469.4,218.67H325.19l-18.46,112H205.21l-25.73-148H475.06L495.82,50.67C497.09,41.92,491.44,33.63,483.13,32.23Z"/>
+                        </svg>
+                    </div>
+  
+  
                 </div>
             </div>
         </div>
