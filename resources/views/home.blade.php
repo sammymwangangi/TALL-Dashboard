@@ -146,7 +146,7 @@
             </div>
         </div>
 
-        <div class="flex-grow w-4/5 bg-gray-100 overflow-y-hidden p-4">
+        <div class="p-4 w-4/5 bg-gray-100 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 <h1 class="text-3xl text-gray-600 font-semibold">Dashboard</h1>

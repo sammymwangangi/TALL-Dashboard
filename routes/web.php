@@ -19,4 +19,13 @@ Route::get('/index', function () {
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
-// Route::get('/profile', 'HomeController@index')->name('home');
+
+//**************Profiles Routes ****************************
+Route::prefix('/profile')->middleware('auth')->group(function(){
+   Route::get('/','ProfileController@index')->name('profile');
+   Route::get('/passwordChange','ProfileController@changePassword');
+   Route::post('/passwordChange/{id}','ProfileController@postChangePassword');
+   Route::get('/editProfile/{id}','ProfileController@editprofile');
+  Route::post('/editprofile/{id}','ProfileController@posteditprofile');
+  // Route::post('/editprofile/{id}', 'ProfileController@cover');
+});;
