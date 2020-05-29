@@ -207,108 +207,88 @@
                         {!! $chart2->container() !!}
                     </div>
                 </div>
-
-                <h1 class="flex items-center font-sans font-bold break-normal text-green-500 px-2 py-8 text-xl md:text-2xl">
-                    Responsive <a class="underline mx-2" href="https://datatables.net/">DataTables.net</a> Table
-                </h1>
                 
-                <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
-                    <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
-                        <thead>
-                            <tr>
-                                <th data-priority="1">Name</th>
-                                <th data-priority="2">Position</th>
-                                <th data-priority="3">Office</th>
-                                <th data-priority="4">Age</th>
-                                <th data-priority="5">Start date</th>
-                                <th data-priority="6">Salary</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>$320,800</td>
-                            </tr>
-                            <tr>
-                                <td>Garrett Winters</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>63</td>
-                                <td>2011/07/25</td>
-                                <td>$170,750</td>
-                            </tr>
-                            <tr>
-                                <td>Ashton Cox</td>
-                                <td>Junior Technical Author</td>
-                                <td>San Francisco</td>
-                                <td>66</td>
-                                <td>2009/01/12</td>
-                                <td>$86,000</td>
-                            </tr>
-                            <tr>
-                                <td>Cedric Kelly</td>
-                                <td>Senior Javascript Developer</td>
-                                <td>Edinburgh</td>
-                                <td>22</td>
-                                <td>2012/03/29</td>
-                                <td>$433,060</td>
-                            </tr>
-                            <tr>
-                                <td>Airi Satou</td>
-                                <td>Accountant</td>
-                                <td>Tokyo</td>
-                                <td>33</td>
-                                <td>2008/11/28</td>
-                                <td>$162,700</td>
-                            </tr>
-                            <tr>
-                                <td>Brielle Williamson</td>
-                                <td>Integration Specialist</td>
-                                <td>New York</td>
-                                <td>61</td>
-                                <td>2012/12/02</td>
-                                <td>$372,000</td>
-                            </tr>
-                            <tr>
-                                <td>Herrod Chandler</td>
-                                <td>Sales Assistant</td>
-                                <td>San Francisco</td>
-                                <td>59</td>
-                                <td>2012/08/06</td>
-                                <td>$137,500</td>
-                            </tr>
-                            <tr>
-                                <td>Rhona Davidson</td>
-                                <td>Integration Specialist</td>
-                                <td>Tokyo</td>
-                                <td>55</td>
-                                <td>2010/10/14</td>
-                                <td>$327,900</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="rounded border-dashed border-4 border-gray-300 w-full h-64 bg-white">
-                    <div class="px-64 py-24">
-                        {{-- <img class="h-16 w-16 rounded origin-bottom-left transform -rotate-45 hover:rotate-0 transition duration-150 ease-in-out shadow-xl hover:shadow-orange-xl" src="/images/lid.jpg" alt="" /> --}}
-                        {{-- <img class="h-16 w-16 shadow-xl" src="/images/dustbin.jpg" alt="" /> --}}
-                        <svg class="origin-bottom-left transform rotate-45 hover:rotate-90 transition duration-150 ease-in-out mb-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="undefined ns-fill-0" fill="" width="50" height="50">
-                            <title>ionicons-v5-g</title>
-                            <path d="M237.65 176.1L144 176.1 144 335.9 237.65 335.9 368 440 368 72 237.65 176.1z"/>
-                        </svg>
-
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="undefined ns-fill-0" fill="#000" width="50" height="50">
-                            <title>ionicons-v5_logos</title>
-                            <path d="M483.13,32.23a19.81,19.81,0,0,0-2.54-.23h-449C23,31.88,16.12,38.88,16,47.75a11.52,11.52,0,0,0,.23,2.8L81.53,461.8a22.54,22.54,0,0,0,7,12.95h0a20,20,0,0,0,13.5,5.25H415.18a15.46,15.46,0,0,0,15.34-13.42L469.4,218.67H325.19l-18.46,112H205.21l-25.73-148H475.06L495.82,50.67C497.09,41.92,491.44,33.63,483.13,32.23Z"/>
-                        </svg>
+                <div id='recipients' class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-xl p-8 mt-6 lg:mt-0 rounded shadow-lg bg-white">
+                    <div class="block overflow-x-auto">
+                        <table id="example" class="py-4" style="width:100%;">
+                            <thead>
+                                <tr>
+                                    <th data-priority="1">Name</th>
+                                    <th data-priority="2">Position</th>
+                                    <th data-priority="3">Office</th>
+                                    <th data-priority="4">Age</th>
+                                    <th data-priority="5">Start date</th>
+                                    <th data-priority="6">Salary</th>
+                                </tr>
+                            </thead>
+                            <tbody class="leading-normal">
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>2011/04/25</td>
+                                    <td>$320,800</td>
+                                </tr>
+                                <tr>
+                                    <td>Garrett Winters</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>63</td>
+                                    <td>2011/07/25</td>
+                                    <td>$170,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Ashton Cox</td>
+                                    <td>Junior Technical Author</td>
+                                    <td>San Francisco</td>
+                                    <td>66</td>
+                                    <td>2009/01/12</td>
+                                    <td>$86,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Cedric Kelly</td>
+                                    <td>Senior Javascript Developer</td>
+                                    <td>Edinburgh</td>
+                                    <td>22</td>
+                                    <td>2012/03/29</td>
+                                    <td>$433,060</td>
+                                </tr>
+                                <tr>
+                                    <td>Airi Satou</td>
+                                    <td>Accountant</td>
+                                    <td>Tokyo</td>
+                                    <td>33</td>
+                                    <td>2008/11/28</td>
+                                    <td>$162,700</td>
+                                </tr>
+                                <tr>
+                                    <td>Brielle Williamson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>New York</td>
+                                    <td>61</td>
+                                    <td>2012/12/02</td>
+                                    <td>$372,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Herrod Chandler</td>
+                                    <td>Sales Assistant</td>
+                                    <td>San Francisco</td>
+                                    <td>59</td>
+                                    <td>2012/08/06</td>
+                                    <td>$137,500</td>
+                                </tr>
+                                <tr>
+                                    <td>Rhona Davidson</td>
+                                    <td>Integration Specialist</td>
+                                    <td>Tokyo</td>
+                                    <td>55</td>
+                                    <td>2010/10/14</td>
+                                    <td>$327,900</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-  
-  
                 </div>
             </div>
         </div>
