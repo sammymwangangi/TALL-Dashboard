@@ -19,3 +19,6 @@ TALL Dashboard is still *under development*
 - npm install
 - npm run dev
 - php artisan serve
+
+## License
+The Tall Dashboard is an open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
