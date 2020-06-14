@@ -4,8 +4,8 @@
     <div class="container mx-auto mt-8">
         <div class="flex flex-wrap justify-center">
             <div class="w-full max-w-sm">
-                <div class="flex flex-col break-words bg-white border border-2 rounded shadow-md">
-
+                <img class="rounded-full w-48 h-48 ml-24 mb-4 object-cover" src="https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="login">
+                <div class="flex flex-col break-words bg-white border border-2 rounded shadow-md mb-6">
                     <div class="font-semibold bg-gray-200 text-gray-700 py-3 px-6 mb-0">
                         {{ __('Register') }}
                     </div>
