@@ -16,7 +16,6 @@
 	 <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
 	 <!--Responsive Extension Datatables CSS-->
 	 <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
-    <livewire:styles/>
 
     <style>
         /*Overrides for Tailwind CSS */
@@ -31,7 +30,7 @@
             padding-bottom: .5rem; 		/*pl-2*/
             line-height: 1.25; 			/*leading-tight*/
             border-width: 2px; 			/*border-2*/
-            border-radius: .25rem; 		
+            border-radius: .25rem;
             border-color: #edf2f7; 		/*border-gray-200*/
             background-color: #edf2f7; 	/*bg-gray-200*/
         }
@@ -79,34 +78,33 @@
         table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
             background-color: #667eea !important; /*bg-indigo-500*/
         }
-		
+
     </style>
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none">
 <div id="app">
-    @yield('content')
+    {{ $slot }}
 </div>
 
 <!-- Scripts -->
-<livewire:scripts/>
     <script src="{{ mix('js/app.js') }}"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js" charset="utf-8"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" defer></script>
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
     <script>
 		$(document).ready(function() {
-			
+
 			var table = $('#example').DataTable( {
 					responsive: true
 				} )
 				.columns.adjust()
 				.responsive.recalc();
 		} );
-	
+
 	</script>
-    {!! $chart->script() !!}
-    {!! $chart2->script() !!}
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </body>
 </html>

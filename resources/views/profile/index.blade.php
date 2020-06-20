@@ -1,6 +1,4 @@
-@extends('layouts.admin')
-
-@section('content')
+<x-admin>
     <div class="flex">
         @include('layouts._sidebar')
 
@@ -31,7 +29,7 @@
                             <path :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                           </svg>
                         </button>
-                        <ul x-show.transition.ease-out.duration-100.transform.opacity-0.scale-95.transform.opacity-100.scale-100.transition.ease-in.duration-75.transform.opacity-100.scale-100.transform.opacity-0.scale-95="open" 
+                        <ul x-show.transition.ease-out.duration-100.transform.opacity-0.scale-95.transform.opacity-100.scale-100.transition.ease-in.duration-75.transform.opacity-100.scale-100.transform.opacity-0.scale-95="open"
                         @click.away="open = false"
                         class="block relative bg-white w-full px-4 pl-8 py-2 text-green-600 font-sans font-medium"
                         >
@@ -58,7 +56,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="lg:flex mt-10">
                     <div class="lg:w-1/4">
                         <div class="bg-white h-auto shadow-lg rounded-lg mb-4 p-4">
@@ -116,4 +114,4 @@
             </div>
         </div>
     </div>
-@endsection
+</x-admin>
