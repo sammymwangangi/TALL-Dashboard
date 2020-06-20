@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use ArielMejiaDev\LarapexCharts\LarapexChart;
 use Illuminate\Http\Request;
+use ArielMejiaDev\LarapexCharts\LarapexChart;
 
 class HomeController extends Controller
 {
@@ -16,6 +16,8 @@ class HomeController extends Controller
             ->setTitle('Earnings')
             ->setDataset([0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000])
             ->setLabels(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
+
+//        dd($chart);
 
         $chart2 = (new LarapexChart)
             ->setTitle('My dataset')
