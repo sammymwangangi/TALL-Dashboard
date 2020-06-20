@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/new-look.jpg" width="800"></p>
 
-## About TALL Dashboard
+## About TALL Dashboard (UNDER ACTIVE DEVELOPMENT)
 
 TALL Dashboard is a dashboard made with:
 
