@@ -60,7 +60,7 @@
 
                 {{--INFO--}}
                 <div class="lg:flex mt-10">
-                    <div class="lg:w-1/4">
+                    <div class="lg:w-1/4 mb-4">
                         <div class="bg-white h-auto shadow-lg rounded-lg mb-4 p-4">
                             <h2 class="antialiased text-gray-900 tracking-wide font-semibold text-2xl mb-4">About</h2>
                             <div class="text-gray-700 leading-normal font-semibold text-base mb-2">
@@ -88,13 +88,282 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-green-600" width="32" height="32" viewBox="0 0 24 24"><title>bxl-instagram</title><g fill=""><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></g></svg>
                             </div>
                         </div>
-                        <div class="bg-white h-64 shadow-lg rounded-lg mb-4">
+                        <div class="bg-white h-auto shadow-lg rounded-lg mb-4 py-4 px-4">
+                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide mb">
+                                Suggested Pages
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Rixton Muel</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Web Design</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+{{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">The Devil's</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Clothing Store</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+{{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">The Magician</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Public Figure</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">AC/DC</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Music</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Eat Hard</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Restaurant / Bar</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">B4B</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Beauty Store</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Kylie Jenner</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Public Figure</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">RDJ</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Web Development</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Taylor Swift</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">Website SEO</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Dion Sam</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">TALL Stack</p>
+                                    </div>
+                                </div>
+                                <div class="flex text-right py-4">
+                                    <div>
+                                        {{--                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>--}}
+                                        <svg class="fill-current text-gray-600" width="14" height="14" fill="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bg-white h-64 shadow-lg rounded-lg"></div>
+                        <div class="bg-white h-auto shadow-lg rounded-lg py-4 px-4">
+                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide">
+                                Twitter Feeds
+                            </div>
+                            <div class="mt-2">
+                                <div class="flex items-center py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                        <div class="flex">
+                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                <g fill="">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
+                                </div>
+                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
+                            </div>
+                            <div class="mt-2">
+                                <div class="flex items-center py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                        <div class="flex">
+                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                <g fill="">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
+                                </div>
+                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
+                            </div>
+                            <div class="mt-2">
+                                <div class="flex items-center py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                        <div class="flex">
+                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                <g fill="">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
+                                </div>
+                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
+                            </div>
+                            <div class="mt-2">
+                                <div class="flex items-center py-2">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-2">
+                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                        <div class="flex">
+                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                <g fill="">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
+                                </div>
+                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="lg:w-2/4">
-                        <div class="bg-white ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
-                            <div class="mx-auto flex py-2">
+                    <div class="lg:w-2/4 mb-4">
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
+                            <div class="mx-auto flex items-center">
                                 <div class="flex-shrink-0">
                                     <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
                                 </div>
@@ -103,20 +372,20 @@
                                     <p class="text-base text-gray-600 font-semibold leading-normal">12 Dec 2018 at 10:46 PM</p>
                                 </div>
                             </div>
-                            <div class="mx-auto py-2 text-base text-gray-600 font-bold leading-normal tracking-wider">
+                            <div class="mx-auto py-2 text-sm text-gray-600 font-semibold leading-normal tracking-wider">
                                 I love jujubes wafer pie ice cream tiramisu. Chocolate I love pastry pastry sesame snaps wafer.
                                 Pastry topping biscuit lollipop topping I love lemon drops sweet roll bonbon. Brownie donut icing.
                             </div>
                             <div class="mt-2 mb-6">
                                 <img class="rounded-lg" src="https://placekitten.com/1920/1280" alt="image">
                             </div>
-                            <div class="flex justify-between">
-                                <div class="flex text-center">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
                                     <div>
                                         <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
                                     </div>
-                                    <div class="text-gray-600 font-bold ml-1 py-1">500</div>
-                                    <div class="flex ml-6">
+                                    <div class="text-gray-600 font-bold ml-1">500</div>
+                                    <div class="flex items-center ml-2">
                                         <img class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                         <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                                         <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
@@ -124,24 +393,24 @@
                                     </div>
                                     <div class="text-gray-600 font-bold text-sm ml-1 py-2">+200 more</div>
                                 </div>
-                                <div class="flex text-right py-1">
+                                <div class="flex items-center">
                                     <div>
                                         <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
                                     </div>
                                     <div class="text-gray-600 font-bold ml-1">100</div>
                                 </div>
                             </div>
-                            <div class="flex justify-between mt-2">
-                                <div class="flex py-2">
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
                                     <div class="flex-shrink-0">
                                         <img class="border-2 border-white rounded-full h-10 w-10" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
                                     </div>
                                     <div class="ml-3">
-                                        <h4 class="text-lg text-gray-700 font-semibold tracking-wider leading-tight">Rixton Muel</h4>
-                                        <p class="text-sm text-gray-600 font-semibold leading-normal">blockiness pandemy metaxylene speckle coppy</p>
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Rixton Muel</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">blockiness pandemy metaxylene speckle coppy</p>
                                     </div>
                                 </div>
-                                <div class="flex text-right py-4">
+                                <div class="flex items-center">
                                     <div>
                                         <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
                                     </div>
@@ -150,17 +419,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex justify-between mt-2">
-                                <div class="flex py-2">
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
                                     <div class="flex-shrink-0">
                                         <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/1920/1280" alt="ChitChat user">
                                     </div>
                                     <div class="ml-3">
-                                        <h4 class="text-lg text-gray-700 font-semibold tracking-wider leading-tight">Dion Sam</h4>
-                                        <p class="text-sm text-gray-600 font-semibold leading-normal">orthoplumbate morningtide naphthaline exarteritis</p>
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Dion Sam</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">orthoplumbate morningtide naphthaline exarteritis</p>
                                     </div>
                                 </div>
-                                <div class="flex text-right py-4">
+                                <div class="flex items-center">
                                     <div>
                                         <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
                                     </div>
@@ -180,13 +449,189 @@
                             </div>
                             <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
                         </div>
-                        <div class="bg-white ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
-                        <div class="bg-white ml-4 h-64 shadow-lg rounded-lg"></div>
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
+                            <div class="mx-auto flex items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                </div>
+                                <div class="ml-6 pt-1">
+                                    <h4 class="text-xl text-gray-800 font-semibold leading-tight">名称 名称</h4>
+                                    <p class="text-base text-gray-600 font-semibold leading-normal">12 Dec 2018 at 10:46 PM</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto py-2 text-sm text-gray-600 font-semibold leading-normal tracking-wider">
+                                I love jujubes wafer pie ice cream tiramisu. Chocolate I love pastry pastry sesame snaps wafer.
+                                Pastry topping biscuit lollipop topping I love lemon drops sweet roll bonbon. Brownie donut icing.
+                            </div>
+                            <div class="mt-2 mb-6">
+                                <img class="rounded-lg" src="https://placekitten.com/1920/1280" alt="image">
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="text-gray-600 font-bold ml-1">500</div>
+                                    <div class="flex ml-2">
+                                        <img class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                    </div>
+                                    <div class="text-gray-600 font-bold text-sm ml-1 py-2">+200 more</div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="text-gray-600 font-bold ml-1">100</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-10 w-10" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-3">
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Rixton Muel</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">blockiness pandemy metaxylene speckle coppy</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/1920/1280" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-3">
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Dion Sam</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">orthoplumbate morningtide naphthaline exarteritis</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap -mx-3 mt-2">
+                                <div class="w-full px-3">
+                                    <textarea class="appearance-none block w-full border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              id="grid-password"
+                                              type="text"
+                                              placeholder="Add Comment"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
+                        </div>
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg pb-6 px-6">
+                            <div class="mx-auto flex items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                </div>
+                                <div class="ml-6 pt-1">
+                                    <h4 class="text-xl text-gray-800 font-semibold leading-tight">名称 名称</h4>
+                                    <p class="text-base text-gray-600 font-semibold leading-normal">12 Dec 2018 at 10:46 PM</p>
+                                </div>
+                            </div>
+                            <div class="mx-auto py-2 text-sm text-gray-600 font-semibold leading-normal tracking-wider">
+                                I love jujubes wafer pie ice cream tiramisu. Chocolate I love pastry pastry sesame snaps wafer.
+                                Pastry topping biscuit lollipop topping I love lemon drops sweet roll bonbon. Brownie donut icing.
+                            </div>
+                            <div class="mt-2 mb-6">
+                                <img class="rounded-lg" src="https://placekitten.com/1920/1280" alt="image">
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="text-gray-600 font-bold ml-1">500</div>
+                                    <div class="flex ml-2">
+                                        <img class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
+                                        <img class="-ml-2 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150 inline-block h-8 w-8 border-2 border-white rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                                    </div>
+                                    <div class="text-gray-600 font-bold text-sm ml-1 py-2">+200 more</div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div class="text-gray-600 font-bold ml-1">100</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-10 w-10" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-3">
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Rixton Muel</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">blockiness pandemy metaxylene speckle coppy</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between mt-2">
+                                <div class="flex items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/1920/1280" alt="ChitChat user">
+                                    </div>
+                                    <div class="ml-3">
+                                        <h4 class="text-base text-gray-700 font-semibold tracking-wider leading-tight">Dion Sam</h4>
+                                        <p class="text-xs text-gray-600 font-semibold leading-normal">orthoplumbate morningtide naphthaline exarteritis</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg class="fill-current text-red-600 transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                    <div>
+                                        <svg class="transition duration-500 ease-in-out transform hover:-translate-y-2 hover:scale-150" width="24" height="24" fill="" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap -mx-3 mt-2">
+                                <div class="w-full px-3">
+                                    <textarea class="appearance-none block w-full border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                              id="grid-password"
+                                              type="text"
+                                              placeholder="Add Comment"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
+                        </div>
+
+                        <div class="mt-6">
+                            <button class="bg-green-500 text-gray-100 text-base block px-6 py-3 rounded-lg hover:shadow-lg sm:ml-32 lg:ml-48 font-bold">Load More</button>
+                        </div>
                     </div>
                     <div class="lg:w-1/4">
-                        <div class="bg-white ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
-                        <div class="bg-white ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
-                        <div class="bg-white ml-4 h-64 shadow-lg rounded-lg"></div>
+                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
+                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
+                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg"></div>
                     </div>
                 </div>
                 {{--INFO--}}
