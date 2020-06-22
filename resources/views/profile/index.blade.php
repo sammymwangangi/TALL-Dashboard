@@ -2,7 +2,7 @@
     <div class="flex">
         @include('layouts._sidebar')
 
-        <div class="p-4 w-4/5 bg-gray-100 overflow-y-hidden">
+        <div class="p-4 w-full w-4/5 bg-gray-100 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 <h1 class="flex text-3xl text-gray-600">
