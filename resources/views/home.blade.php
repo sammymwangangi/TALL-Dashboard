@@ -5,14 +5,14 @@
         {{-- END SIDEBAR --}}
 
         {{-- BODY SECTION --}}
-        <div class="p-4 w-4/5 bg-gray-100 overflow-y-hidden">
+        <div class="p-4 w-full w-4/5 bg-gray-100 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 {{-- HEADING --}}
                 <h1 class="text-3xl text-gray-600 font-semibold">Dashboard</h1>
 
                 {{-- CARDS --}}
-                <div class="lg:flex items-center justify-between px-2 py-6">
+                <div class="lg:flex items-center justify-between py-6">
 
                     <x-card type="one">
                         <div class="flex-1 text-left">
@@ -59,18 +59,76 @@
                 {{-- END CARDS --}}
 
                 {{-- CHARTS --}}
-                <div class="lg:flex mb-4">
-                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">
-                        {!! $chart->container() !!}
+                {{-- child charts --}}
 
-                        {!! $chart->script() !!}
+                <div class="w-full">
+                    <div class="flex flex-wrap">
+                        <div class="w-full lg:w-3/5 mb-12 lg:mb-0">
+                            <div
+                                class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-white"
+                            >
+                                <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+                                    <div class="flex flex-wrap items-center">
+                                        <div class="relative w-full max-w-full flex-grow flex-1">
+                                            <h6
+                                                class="uppercase text-gray-500 mb-1 text-xs font-semibold"
+                                            >
+                                                Overview
+                                            </h6>
+                                            <h2 class="text-gray-800 text-xl font-semibold">
+                                                Earnings
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 flex-auto">
+                                    <!-- Chart -->
+                                    <div class="relative" style="height:350px">
+                                        <canvas id="line-chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full lg:w-2/5 px-4">
+                            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                                <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
+                                    <div class="flex flex-wrap items-center">
+                                        <div class="relative w-full max-w-full flex-grow flex-1">
+                                            <h6
+                                                class="uppercase text-gray-500 mb-1 text-xs font-semibold"
+                                            >
+                                                Social Media
+                                            </h6>
+                                            <h2 class="text-gray-800 text-xl font-semibold">
+                                                Statistics
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 flex-auto">
+                                    <!-- Chart -->
+                                    <div class="relative" style="height:350px">
+                                        <canvas id="bar-chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">
-                        {!! $chart2->container() !!}
 
-                        {!! $chart2->script() !!}
-                    </div>
                 </div>
+                {{-- End child charts --}}
+{{--                <div class="lg:flex mb-4">--}}
+{{--                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">--}}
+{{--                        {!! $chart->container() !!}--}}
+
+{{--                        {!! $chart->script() !!}--}}
+{{--                    </div>--}}
+{{--                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">--}}
+{{--                        {!! $chart2->container() !!}--}}
+
+{{--                        {!! $chart2->script() !!}--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 {{-- END CHARTS --}}
 
                 {{-- TABLE --}}
@@ -158,8 +216,71 @@
                 </div>
                 {{-- END TABLE --}}
             </div>
+            <footer class="block py-4">
+                <div class="container mx-auto px-4">
+                    <hr class="mb-4 border-b-1 border-gray-300" />
+                    <div class="flex flex-wrap items-center md:justify-between justify-center">
+                        <div class="w-full md:w-4/12 px-4">
+                            <div class="text-sm text-gray-600 font-semibold py-1">
+                                Copyright © <span>2020</span>
+                                <a
+                                    href="https://tailwindcss-dashboard.herokuapp.com/"
+                                    class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
+                                >
+                                    TALL Dashboard
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-8/12 px-4">
+                            <ul class="flex flex-wrap list-none md:justify-end  justify-center">
+                                <li>
+                                    <a
+                                        href="https://tailwindcss.com"
+                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                    >
+                                        Tailwind CSS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://github.com/alpinejs/alpine"
+                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                    >
+                                        Alpine Js
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://laravel.com"
+                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                    >
+                                        Laravel
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="http://laravel-livewire.com/"
+                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                    >
+                                        Laravel Livewire
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/LICENSE"
+                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                    >
+                                        MIT License
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
         {{-- END BODY SECTION --}}
+
     </div>
 
 </x-admin>
