@@ -10,23 +10,33 @@ class HomeController extends Controller
 
     public function index()
     {
-
-        $chart = (new LarapexChart)
+        $earnings_chart = (new LarapexChart)
             ->setType('line')
             ->setTitle('Earnings')
-            ->setDataset([0, 10000, 5000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000])
-            ->setLabels(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]);
+            ->setXAxis([
+                'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'
+            ])
+            ->setDataset([
+                [
+                    'name'  =>  'Earnings',
+                    'data'  =>  [0, 10000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000]
+                ]
+            ])
+        ;
 
-//        dd($chart);
-
-        $chart2 = (new LarapexChart)
-            ->setTitle('My dataset')
+        $statics_chart = (new LarapexChart)
+            ->setTitle('Statics')
             ->setType('area')
-            ->setDataset([55, 30, 15])
             ->setColors(['#4e73df', '#1cc88a', '#36b9cc'])
-            ->setLabels(["Direct", "Referral", "Social"]);
-
-        return view('home', compact('chart', 'chart2'));
+            ->setLabels(["Direct", "Referral", "Social"])
+            ->setDataset([
+                [
+                    'name'  =>  'Statics',
+                    'data'  =>  [55, 30, 15]
+                ]
+            ])
+        ;
+        return view('home', compact('earnings_chart', 'statics_chart'));
     }
 
 }

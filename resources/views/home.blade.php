@@ -1,4 +1,7 @@
-<x-admin>
+{{--<x-admin>--}}
+@extends('layouts.admin')
+
+@section('content')
     <div class="flex">
         {{-- SIDEBAR --}}
         @include('layouts._sidebar')
@@ -59,76 +62,22 @@
                 {{-- END CARDS --}}
 
                 {{-- CHARTS --}}
-                {{-- child charts --}}
 
-                <div class="w-full">
-                    <div class="flex flex-wrap">
-                        <div class="w-full lg:w-3/5 mb-12 lg:mb-0">
-                            <div
-                                class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-white"
-                            >
-                                <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
-                                    <div class="flex flex-wrap items-center">
-                                        <div class="relative w-full max-w-full flex-grow flex-1">
-                                            <h6
-                                                class="uppercase text-gray-500 mb-1 text-xs font-semibold"
-                                            >
-                                                Overview
-                                            </h6>
-                                            <h2 class="text-gray-800 text-xl font-semibold">
-                                                Earnings
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="p-4 flex-auto">
-                                    <!-- Chart -->
-                                    <div class="relative" style="height:350px">
-                                        <canvas id="line-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-2/5 px-4">
-                            <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-                                <div class="rounded-t mb-0 px-4 py-3 bg-transparent">
-                                    <div class="flex flex-wrap items-center">
-                                        <div class="relative w-full max-w-full flex-grow flex-1">
-                                            <h6
-                                                class="uppercase text-gray-500 mb-1 text-xs font-semibold"
-                                            >
-                                                Social Media
-                                            </h6>
-                                            <h2 class="text-gray-800 text-xl font-semibold">
-                                                Statistics
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="p-4 flex-auto">
-                                    <!-- Chart -->
-                                    <div class="relative" style="height:350px">
-                                        <canvas id="bar-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="lg:flex mb-4">
+                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">
+                        {!! $earnings_chart->container() !!}
+
+                        {!! $earnings_chart->script() !!}
                     </div>
+                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">
+                        {!! $statics_chart->container() !!}
 
+                        {!! $statics_chart->script() !!}
+                    </div>
                 </div>
-                {{-- End child charts --}}
-                {{-- <div class="lg:flex mb-4">--}}
-                {{--     <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:w-3/5 mb-2">--}}
-                {{--         {!! $chart->container() !!}--}}
 
-                {{--         {!! $chart->script() !!}--}}
-                {{--     </div>--}}
-                {{--     <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 hover:shadow-2xl shadow-xl bg-white rounded-lg mx-auto p-6 lg:ml-4 lg:w-2/5">--}}
-                {{--         {!! $chart2->container() !!}--}}
 
-                {{--         {!! $chart2->script() !!}--}}
-                {{--     </div>--}}
-                {{-- </div>--}}
+                {{--                <x-charts></x-charts>--}}
                 {{-- END CHARTS --}}
 
                 {{-- TABLE --}}
@@ -283,4 +232,4 @@
 
     </div>
 
-</x-admin>
+@endsection
