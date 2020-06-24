@@ -76,8 +76,7 @@
                     </div>
                 </div>
 
-
-                {{--                <x-charts></x-charts>--}}
+{{--                <x-charts></x-charts>--}}
                 {{-- END CHARTS --}}
 
                 {{-- TABLE --}}
