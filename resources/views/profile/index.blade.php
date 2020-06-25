@@ -1,4 +1,7 @@
-<x-admin>
+{{--<x-admin>--}}
+@extends('layouts.admin')
+
+@section('content')
     <div class="flex">
         @include('layouts._sidebar')
 
@@ -641,4 +644,4 @@
         </div>
     </div>
 
-</x-admin>
+@endsection
