@@ -104,9 +104,9 @@
 
 </script>
 
-{{--<script src="{{ $earnings_chart->cdn() }}"></script>--}}
+<script src="{{ $earnings_chart->cdn() }}"></script>
 
-{{--{{ $earnings_chart->script() }}--}}
-{{--{{ $statics_chart->script() }}--}}
+{{ $earnings_chart->script() }}
+{{ $statics_chart->script() }}
 </body>
 </html>
