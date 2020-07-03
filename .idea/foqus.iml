@@ -8,7 +8,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/arielmejiadev/larapex-charts" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asantibanez/livewire-calendar" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/balping/json-raw-encoder" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
