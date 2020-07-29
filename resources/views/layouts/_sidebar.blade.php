@@ -88,7 +88,7 @@
         </x-item>
     </div>
 
-    <div :class="{'block': open, 'hidden': !open}" class="hidden sm:hidden">
+    <div :class="{'block': open, 'hidden': !open}" class="hidden md:hidden">
         <div class="px-4 py-3 overflow-y-auto -mt-2">
             <div class="bg-green-500 text-white px-2 py-2 flex rounded mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current" width="24" height="24"><path class="heroicon-ui" d="M13 20v-5h-2v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7.59l-.3.3a1 1 0 1 1-1.4-1.42l9-9a1 1 0 0 1 1.4 0l9 9a1 1 0 0 1-1.4 1.42l-.3-.3V20a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zm5 0v-9.59l-6-6-6 6V20h3v-5c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v5h3z"/></svg>

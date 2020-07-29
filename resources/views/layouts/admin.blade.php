@@ -13,9 +13,9 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 {{-- <link href="{{ asset('css/table.css') }}" rel="stylesheet"> --}}
 <!--Regular Datatables CSS-->
-    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
     <!--Responsive Extension Datatables CSS-->
-    <link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.5/css/responsive.dataTables.min.css" rel="stylesheet" SameSite=None>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"/>
 
     <style>
@@ -90,18 +90,17 @@
 <!-- Scripts -->
 <script src="{{ mix('js/app.js') }}"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" defer></script>
-<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.5/js/dataTables.responsive.min.js"></script>
 <script>
     $(document).ready(function() {
         var table = $('#example').DataTable( {
             responsive: true
-        } )
+        })
             .columns.adjust()
-            .responsive.recalc();
-    } );
-
+    });
 </script>
 
 {{-- <script src="{{ $earnings_chart->cdn() }}"></script> --}}
