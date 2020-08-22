@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="flex">
-        @include('layouts._sidebar')
+        @include('layouts.sidebar')
 
         <div class="p-4 w-full w-4/5 bg-gray-100 overflow-y-hidden">
             @include('layouts.navbar')
