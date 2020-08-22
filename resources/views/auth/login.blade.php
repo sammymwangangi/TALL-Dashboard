@@ -11,7 +11,8 @@
                         {{ __('Login') }}
                     </div>
 
-                    <form class="w-full p-6" method="POST" action="{{ route('login') }}">
+                    {{-- <form class="w-full p-6" method="POST" action="{{ route('login') }}"> --}}
+                    <form class="w-full p-6" method="POST" action="#">
                         @csrf
 
                         <div class="flex flex-wrap mb-6">

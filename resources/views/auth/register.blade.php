@@ -10,7 +10,8 @@
                         {{ __('Register') }}
                     </div>
 
-                    <form class="w-full p-6" method="POST" action="{{ route('register') }}">
+                    {{-- <form class="w-full p-6" method="POST" action="{{ route('register') }}"> --}}
+                    <form class="w-full p-6" method="POST" action="#">
                         @csrf
 
                         <div class="flex flex-wrap mb-6">
