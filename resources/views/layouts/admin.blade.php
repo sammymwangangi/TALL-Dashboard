@@ -20,6 +20,8 @@
     <!-- Video -->
     <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
 
+    @livewireStyles
+
     <style>
         /*Overrides for Tailwind CSS */
 
@@ -105,6 +107,8 @@
             .columns.adjust()
     });
 </script>
+
+@livewireScripts
 
 {{-- <script src="{{ $earnings_chart->cdn() }}"></script> --}}
 
