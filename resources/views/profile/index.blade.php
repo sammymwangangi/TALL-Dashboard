@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     <div class="lg:flex-1 mb-4">
-                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 py-4 px-4">
                             <div class="mx-auto flex items-center">
                                 <div class="flex-shrink-0">
                                     <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
@@ -385,9 +385,9 @@
                                     ></textarea>
                                 </div>
                             </div>
-                            <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
+                            <button class="bg-green-400 hover:bg-green-500 hover:shadow-lg transition ease-in-out duration-150 text-gray-100 block px-6 py-2 rounded-full focus:outline-none">Post Comment</button>
                         </div>
-                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 py-4 px-4">
                             <div class="mx-auto flex items-center">
                                 <div class="flex-shrink-0">
                                     <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
@@ -489,9 +489,9 @@
                                     ></textarea>
                                 </div>
                             </div>
-                            <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
+                            <button class="bg-green-400 hover:bg-green-500 hover:shadow-lg transition ease-in-out duration-150 text-gray-100 block px-6 py-2 rounded-full focus:outline-none">Post Comment</button>
                         </div>
-                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg pb-6 px-6">
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg py-4 px-4">
                             <div class="mx-auto flex items-center">
                                 <div class="flex-shrink-0">
                                     <img class="rounded-full h-12 w-12" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
@@ -576,11 +576,11 @@
                                     ></textarea>
                                 </div>
                             </div>
-                            <button class="bg-green-500 text-gray-100 block px-6 py-2 rounded-full">Post Comment</button>
+                            <button class="bg-green-400 hover:bg-green-500 hover:shadow-lg transition ease-in-out duration-150 text-gray-100 block px-6 py-2 rounded-full focus:outline-none">Post Comment</button>
                         </div>
 
                         <div class="mt-6">
-                            <button class="bg-green-500 text-gray-100 text-base block px-6 py-3 rounded-lg hover:shadow-lg sm:ml-32 lg:ml-48 font-bold">Load More</button>
+                            <button class="bg-green-400 hover:bg-green-500 hover:shadow-lg transition ease-in-out duration-150 text-gray-100 text-base block px-6 py-3 rounded-lg hover:shadow-lg sm:ml-32 lg:ml-48 focus:outline-none font-bold">Load More</button>
                         </div>
                     </div>
                     <div class="lg:w-1/4">
@@ -610,7 +610,7 @@
                                         </div>
                                     </div>
                                     <div class="flex text-right py-4">
-                                        <button type="button" class="px-1 py-1 border-2 border-green-400 rounded-full hover:bg-green-200 focus:bg-green-400">
+                                        <button type="button" class="px-1 py-1 border-2 border-green-200 rounded-full hover:bg-green-100 focus:outline-none focus:bg-green-200 focus:text-white">
                                             <svg viewBox="0 0 20 20" fill="" class="user-add w-6 h-6 fill-current text-gray-600"><path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path></svg>
                                         </button>
                                     </div>
