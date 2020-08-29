@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/new-look.jpg" width="800"></p>
+<p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/new.png" width="800"></p>
 
 ## About TALL Dashboard (UNDER ACTIVE DEVELOPMENT)
 
