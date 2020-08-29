@@ -1,4 +1,3 @@
-{{--<x-admin>--}}
 @extends('layouts.admin')
 
 @section('content')
@@ -267,104 +266,40 @@
                             </div>
                         </div>
                         <div class="bg-white h-auto shadow-lg rounded-lg py-4 px-4">
-                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide">
+                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide mb-2">
                                 Twitter Feeds
                             </div>
-                            <div class="mt-2">
-                                <div class="flex items-center py-2">
-                                    <div class="flex-shrink-0">
-                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
-                                    </div>
-                                    <div class="ml-2">
-                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
-                                        <div class="flex">
-                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
-                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
-                                                <g fill="">
-                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                                                </g>
-                                            </svg>
+                            @foreach(range(1, 4) as $index)
+                                <div class="mb-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-shrink-0">
+                                            <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                        </div>
+                                        <div class="ml-2">
+                                            <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                            <div class="flex">
+                                                <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                                <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                    <g fill="">
+                                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                    </g>
+                                                </svg>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
-                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
-                                </div>
-                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
-                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
-                            </div>
-                            <div class="mt-2">
-                                <div class="flex items-center py-2">
-                                    <div class="flex-shrink-0">
-                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                    <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                        I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
                                     </div>
-                                    <div class="ml-2">
-                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
-                                        <div class="flex">
-                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
-                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
-                                                <g fill="">
-                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
+                                    <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                    <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
                                 </div>
-                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
-                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
-                                </div>
-                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
-                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
-                            </div>
-                            <div class="mt-2">
-                                <div class="flex items-center py-2">
-                                    <div class="flex-shrink-0">
-                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
-                                    </div>
-                                    <div class="ml-2">
-                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
-                                        <div class="flex">
-                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
-                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
-                                                <g fill="">
-                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
-                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
-                                </div>
-                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
-                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
-                            </div>
-                            <div class="mt-2">
-                                <div class="flex items-center py-2">
-                                    <div class="flex-shrink-0">
-                                        <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
-                                    </div>
-                                    <div class="ml-2">
-                                        <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
-                                        <div class="flex">
-                                            <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
-                                            <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
-                                                <g fill="">
-                                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
-                                    I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
-                                </div>
-                                <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
-                                <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
-                            </div>
+                                @if(!$loop->last)
+                                    <hr class="py-2">
+                                @endif
+                            @endforeach
                         </div>
                     </div>
-                    <div class="lg:w-2/4 mb-4">
+                    <div class="lg:flex-1 mb-4">
                         <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 pb-6 px-6">
                             <div class="mx-auto flex items-center">
                                 <div class="flex-shrink-0">
@@ -632,13 +567,131 @@
                         </div>
                     </div>
                     <div class="lg:w-1/4">
-                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
-                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg mb-4"></div>
-                        <div class="bg-white lg:ml-4 h-64 shadow-lg rounded-lg"></div>
+                        <div class="bg-white py-2 px-4 lg:ml-4 h-auto shadow-lg rounded-lg mb-4">
+                            <h2 class="text-gray-600 font-bold tracking-wide py-4">My Album</h2>
+                            <div class="grid grid-rows-3 grid-flow-col gap-4 mb-4">
+                                @foreach(range(1, 9) as $index)
+                                    <div class="transition duration-500 ease-in-out transform hover:-translate-y-0 hover:scale-75 inline-block">
+                                        <img class="rounded h-12 w-12" src="https://placekitten.com/40/40" alt="ChitChat user">
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg mb-4 py-4 px-4">
+                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide">
+                                Friends
+                            </div>
+                            @foreach(range(1, 8) as $index)
+                                <div class="flex items-center justify-between">
+                                    <div class="flex py-1">
+                                        <div class="flex-shrink-0">
+                                            <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/40/40" alt="ChitChat user">
+                                        </div>
+                                        <div class="ml-2">
+                                            <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Rixton Muel</h4>
+                                            <p class="text-xs text-gray-600 font-semibold leading-normal">10 Mutual Friends</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex text-right py-4">
+                                        <button type="button" class="px-1 py-1 border-2 border-green-400 rounded-full hover:bg-green-200 focus:bg-green-400">
+                                            <svg viewBox="0 0 20 20" fill="" class="user-add w-6 h-6 fill-current text-gray-600"><path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                @if(!$loop->last)
+                                    <hr class="py-2">
+                                @endif
+                            @endforeach
+                        </div>
+                        <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg py-4 px-4">
+                            <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide mb-4">
+                                Groups
+                            </div>
+                            <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                </svg>
+                                <div class="space-y-1">
+                                    <p class="text-base leading-6 font-medium text-gray-900">
+                                        Front-End
+                                    </p>
+                                    <div class="flex overflow-hidden">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                </svg>
+                                <div class="space-y-1">
+                                    <p class="text-base leading-6 font-medium text-gray-900">
+                                        Back-End
+                                    </p>
+                                    <div class="flex overflow-hidden">
+                                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                                <div class="space-y-1">
+                                    <p class="text-base leading-6 font-medium text-gray-900">
+                                        UI/UX
+                                    </p>
+                                    <div class="flex overflow-hidden">
+                                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                                </svg>
+                                <div class="space-y-1">
+                                    <p class="text-base leading-6 font-medium text-gray-900">
+                                        Machine Learning
+                                    </p>
+                                    <div class="flex overflow-hidden">
+                                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
+                                <svg class="flex-shrink-0 h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                                <div class="space-y-1">
+                                    <p class="text-base leading-6 font-medium text-gray-900">
+                                        DevOps
+                                    </p>
+                                    <div class="flex overflow-hidden">
+                                        <img class="inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                        <img class="-ml-1 inline-block h-6 w-6 rounded-full text-white shadow-solid" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 {{--INFO--}}
-
 
             </div>
         </div>
