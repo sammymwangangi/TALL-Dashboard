@@ -109,6 +109,7 @@
       <path value="$PROJECT_DIR$/vendor/asantibanez/livewire-calendar" />
       <path value="$PROJECT_DIR$/vendor/arielmejiadev/larapex-charts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
