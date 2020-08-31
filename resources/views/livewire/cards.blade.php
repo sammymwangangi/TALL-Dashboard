@@ -1,6 +1,6 @@
 <div class="lg:grid lg:grid-cols-3 gap-4 my-4">
     @foreach(range(1, 3) as $index)
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white mb-4">
             <img class="w-full" src="https://placekitten.com/1920/1280" alt="Sunset in the mountains">
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">{{$title}}</div>
