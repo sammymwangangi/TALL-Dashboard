@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 {{-- END TABLE --}}
-
+                <x-upload></x-upload>
                 @livewire('cards')
             </div>
 

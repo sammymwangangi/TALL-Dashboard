@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use ArielMejiaDev\LarapexCharts\LarapexChart;
+use Illuminate\Support\Facades\Http;
 
 class ProfileController extends Controller
 {
@@ -76,6 +77,11 @@ class ProfileController extends Controller
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'An error occurred while updating profile data, please try again!');
         }
+    }
+    public function github(){
+        $repository = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard')->json();
+        dd($repository);
+        return view('github');
     }
     // public function cover(Request $request)
     // {
