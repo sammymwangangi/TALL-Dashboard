@@ -36,6 +36,7 @@ class HomeController extends Controller
                 ]
             ])
         ;
+
         return view('home', compact('earnings_chart', 'statics_chart'));
     }
 

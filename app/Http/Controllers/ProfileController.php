@@ -79,9 +79,44 @@ class ProfileController extends Controller
         }
     }
     public function github(){
+
+        $earnings_chart = (new LarapexChart)
+            ->setType('line')
+            ->setTitle('Earnings')
+            ->setXAxis([
+                'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'
+            ])
+            ->setDataset([
+                [
+                    'name'  =>  'Earnings',
+                    'data'  =>  [0, 10000, 15000, 10000, 20000, 15000, 25000, 20000, 30000, 25000, 40000]
+                ]
+            ])
+        ;
+
+        $statics_chart = (new LarapexChart)
+            ->setTitle('Statics')
+            ->setType('area')
+            ->setColors(['#4e73df', '#1cc88a', '#36b9cc'])
+            ->setLabels(["Direct", "Referral", "Social"])
+            ->setDataset([
+                [
+                    'name'  =>  'Statics',
+                    'data'  =>  [55, 30, 15]
+                ]
+            ])
+        ;
         $repository = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard')->json();
-        dd($repository);
-        return view('github');
+        $contributor = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard/contributors')->json();
+        $language = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard/languages')->json();
+        $owner = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard')->json()['owner'];
+        $views = Http::get('https://api.github.com/repos/sammymwangangi/TALL-Dashboard/traffic/views')->json();
+        dump($repository);
+        dump($owner);
+        dump($contributor);
+        dump($language);
+        dump($views);
+        return view('github', compact('earnings_chart', 'statics_chart', 'repository', 'owner', 'contributor', 'language', 'views'));
     }
     // public function cover(Request $request)
     // {

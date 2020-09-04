@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="TALL Dashboard is a dashboard made with Tailwind CSS,AlpineJS,Laravel and Livewire.">
+    <meta name="keywords" content="TailwindCss,AlpineJs, LaravelLivewire,Laravel,livewire, tailwindcss, tailwindui,css,dashboard, Tall stack, Tall Dashboard">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'TallDashboard') }}</title>
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">

@@ -1,5 +1,5 @@
 <div
-    class="my-4 p-4 bg-green-200 rounded"
+    class="my-4 p-4 bg-gradient-to-r from-yellow-500 via-pink-500 to-orange-400 rounded"
     x-data="{
         pond: null
     }"
@@ -23,9 +23,9 @@
     "
 
 >
-    <div class="text-3xl text-gray-600 font-semibold text-center mb-6">
+    <div class="text-3xl text-gray-100 font-semibold text-center mb-6">
         File Upload using <span class="uppercase font-bold">Filepond</span>
-        <p class="mt-2 font-medium text-sm text-gray-500">Courtesy of <a href="https://www.alptail.com/all/?open=filepond"><span class="font-bold">Alptail</span></a></p>
+        <p class="mt-2 font-medium text-sm text-white">Courtesy of <a href="https://www.alptail.com/all/?open=filepond"><span class="font-bold text-gray-800">Alptail</span></a></p>
     </div>
     <input type="file" x-ref="filepond">
 </div>

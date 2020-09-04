@@ -12,7 +12,7 @@
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 {{-- HEADING --}}
-                <h1 class="text-3xl text-gray-600 font-semibold bg-gradient-to-r from-orange-400 to-red-700">Dashboard</h1>
+                <h1 class="text-3xl text-gray-600 font-semibold">Dashboard</h1>
 
                 {{-- CARDS --}}
                 <div class="lg:flex items-center justify-between py-6">
@@ -60,6 +60,10 @@
 
                 </div>
                 {{-- END CARDS --}}
+
+                {{-- GITHUB INFO --}}
+                    <x-github/>
+                {{-- END GITHUB INFO --}}
 
                 {{-- CHARTS --}}
 

@@ -33,13 +33,13 @@
                         </button>
                         <ul x-show.transition.ease-out.duration-100.transform.opacity-0.scale-95.transform.opacity-100.scale-100.transition.ease-in.duration-75.transform.opacity-100.scale-100.transform.opacity-0.scale-95="open"
                         @click.away="open = false"
-                        class="block relative bg-white w-full px-4 pl-8 py-2 text-green-600 font-sans font-medium"
+                        class="block relative bg-white w-full px-4 pl-8 py-2 text-green-600 font-sans font-medium divide-y divide-gray-400"
                         >
-                            <li><a href="#" class="inline-block mr-12 px-3 py-1">Timeline</a></li>
-                            <li><a href="#" class="inline-block mr-12 px-3 py-1">About</a></li>
-                            <li><a href="#" class="inline-block mr-12 px-3 py-1">Photos</a></li>
-                            <li><a href="#" class="inline-block mr-12 px-3 py-1">Friends</a></li>
-                            <li><a href="#" class="inline-block mr-12 px-3 py-1">Videos</a></li>
+                            <li><a href="#" class="inline-block mr-12 px-3 py-2">Timeline</a></li>
+                            <li><a href="#" class="inline-block mr-12 px-3 py-2">About</a></li>
+                            <li><a href="#" class="inline-block mr-12 px-3 py-2">Photos</a></li>
+                            <li><a href="#" class="inline-block mr-12 px-3 py-2">Friends</a></li>
+                            <li><a href="#" class="inline-block mr-12 px-3 py-2">Videos</a></li>
                             <li><a href="#" class="inline-block px-3 py-1">Events</a></li>
                         </ul>
                     </div>
@@ -269,34 +269,37 @@
                             <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide mb-2">
                                 Twitter Feeds
                             </div>
-                            @foreach(range(1, 4) as $index)
-                                <div class="mb-4">
-                                    <div class="flex items-center">
-                                        <div class="flex-shrink-0">
-                                            <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
-                                        </div>
-                                        <div class="ml-2">
-                                            <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
-                                            <div class="flex">
-                                                <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
-                                                <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
-                                                    <g fill="">
-                                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
-                                                    </g>
-                                                </svg>
+                            <div class="divide-y divide-gray-400">
+
+                                @foreach(range(1, 4) as $index)
+                                    <div class="mb-4 py-2">
+                                        <div class="flex items-center">
+                                            <div class="flex-shrink-0">
+                                                <img class="border-2 border-white rounded-full h-8 w-8" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="ChitChat user">
+                                            </div>
+                                            <div class="ml-2">
+                                                <h4 class="text-xs text-gray-700 font-bold tracking-widest leading-normal">Rixton Muel</h4>
+                                                <div class="flex">
+                                                    <p class="text-xs text-gray-600 font-semibold leading-normal">@rixton20</p>
+                                                    <svg class="fill-current text-indigo-600 mt-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><title>ic_check_circle_24px</title>
+                                                        <g fill="">
+                                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                                                        </g>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
+                                            I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
+                                        </div>
+                                        <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
+                                        <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
                                     </div>
-                                    <div class="mt-2 text-sm text-gray-600 font-semibold leading-normal tracking-wide">
-                                        I love cookie chupa chups sweet tart apple pie chocolate bar. Jelly-o oat cake chupa chups.
-                                    </div>
-                                    <p class="text-sm text-indigo-600 font-bold leading-normal tracking-wide">#js #vuejs</p>
-                                    <p class="text-sm text-gray-600 font-semibold leading-normal tracking-wide">12 Dec 2018</p>
-                                </div>
-                                @if(!$loop->last)
-                                    <hr class="py-2">
-                                @endif
-                            @endforeach
+                                    {{--                                @if(!$loop->last)--}}
+                                    {{--                                    <hr class="py-2">--}}
+                                    {{--                                @endif--}}
+                                @endforeach
+                            </div>
                         </div>
                     </div>
                     <div class="lg:flex-1 mb-4">
@@ -598,27 +601,27 @@
                             <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide">
                                 Friends
                             </div>
-                            @foreach(range(1, 8) as $index)
-                                <div class="flex items-center justify-between">
-                                    <div class="flex py-1">
-                                        <div class="flex-shrink-0">
-                                            <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/40/40" alt="ChitChat user">
+                            <div class="divide-y-2 divide-gray-400">
+
+                                @foreach(range(1, 8) as $index)
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex py-1">
+                                            <div class="flex-shrink-0">
+                                                <img class="border-2 border-white rounded-full h-10 w-10" src="https://placekitten.com/40/40" alt="ChitChat user">
+                                            </div>
+                                            <div class="ml-2">
+                                                <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Rixton Muel</h4>
+                                                <p class="text-xs text-gray-600 font-semibold leading-normal">10 Mutual Friends</p>
+                                            </div>
                                         </div>
-                                        <div class="ml-2">
-                                            <h4 class="text-xs text-gray-700 font-semibold tracking-widest leading-normal">Rixton Muel</h4>
-                                            <p class="text-xs text-gray-600 font-semibold leading-normal">10 Mutual Friends</p>
+                                        <div class="flex text-right py-4">
+                                            <button type="button" class="px-1 py-1 border-2 border-green-200 rounded-full hover:bg-green-100 focus:outline-none focus:bg-green-200 focus:text-white">
+                                                <svg viewBox="0 0 20 20" fill="" class="user-add w-6 h-6 fill-current text-gray-600"><path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path></svg>
+                                            </button>
                                         </div>
                                     </div>
-                                    <div class="flex text-right py-4">
-                                        <button type="button" class="px-1 py-1 border-2 border-green-200 rounded-full hover:bg-green-100 focus:outline-none focus:bg-green-200 focus:text-white">
-                                            <svg viewBox="0 0 20 20" fill="" class="user-add w-6 h-6 fill-current text-gray-600"><path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z"></path></svg>
-                                        </button>
-                                    </div>
-                                </div>
-                                @if(!$loop->last)
-                                    <hr class="py-2">
-                                @endif
-                            @endforeach
+                                @endforeach
+                            </div>
                         </div>
                         <div class="bg-white lg:ml-4 h-auto shadow-lg rounded-lg py-4 px-4">
                             <div class="text-xl text-gray-800 font-semibold leading-normal tracking-wide mb-4">
