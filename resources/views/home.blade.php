@@ -162,8 +162,23 @@
                 </div>
                 {{-- END TABLE --}}
 
+                {{-- File Upload --}}
                 <x-file-uploads/>
+
+                {{-- More Card styles --}}
                 @livewire('cards')
+
+                {{-- Simple Carousel --}}
+                <div class="carousel" data-flickity='{ "autoPlay": 1500, "freeScroll": true, "wrapAround": true }'>
+                    <div class="carousel-cell bg-gradient-to-r from-teal-400 to-blue-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-indigo-400 via-yellow-500 to-teal-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-red-400 via-orange-500 to-yellow-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500 w-full h-64"></div>
+                </div>
+
+                {{-- Advanced Carousel Coming Soon --}}
+
             </div>
 
             <!-- FOOTER -->
