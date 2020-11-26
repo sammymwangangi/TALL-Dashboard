@@ -8,11 +8,11 @@
         {{-- END SIDEBAR --}}
 
         {{-- BODY SECTION --}}
-        <div class="p-4 w-full w-4/5 bg-gray-100 overflow-y-hidden">
+        <div class="w-full w-4/5 bg-gray-50 dark:bg-gray-900 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 {{-- HEADING --}}
-                <h1 class="text-3xl text-gray-600 font-semibold">Dashboard</h1>
+                <h1 class="text-3xl text-gray-600 dark:text-gray-200 font-semibold">Dashboard</h1>
 
                 {{-- CARDS --}}
                 <div class="lg:flex items-center justify-between py-6">
@@ -39,22 +39,22 @@
 
                     <x-card type="three">
                         <div class="flex-1 text-left">
-                            <div class="text-sm font-semibold uppercase tracking-tight text-teal-400 mb-2">TASKS</div>
+                            <div class="text-sm font-semibold uppercase tracking-tight text-pink-600 mb-2">TASKS</div>
                             <div class="text-2xl font-semibold text-gray-700 leading-normal tracking-widest">50%</div>
                         </div>
                         <div class="text-right">
-                            <svg class="fill-current text-teal-400" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>pin</title><g><path d="M11 12h6v-1l-3-1V2l3-1V0H3v1l3 1v8l-3 1v1h6v7l1 1 1-1v-7z"></path></g></svg>
+                            <svg class="fill-current text-pink-600" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>pin</title><g><path d="M11 12h6v-1l-3-1V2l3-1V0H3v1l3 1v8l-3 1v1h6v7l1 1 1-1v-7z"></path></g></svg>
                         </div>
                     </x-card>
 
                     <x-card type="four">
                         <div class="flex-1 text-left">
-                            <div class="text-sm font-semibold uppercase tracking-tight text-orange-400 mb-2">PENDING REQUESTS</div>
+                            <div class="text-sm font-semibold uppercase tracking-tight text-yellow-500 mb-2">PENDING REQUESTS</div>
                             <div class="text-2xl font-semibold text-gray-700 leading-normal tracking-widest">18</div>
                         </div>
                         <div class="text-right">
                             {{-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100"><title>31</title><g><g id="31.-Papers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path id="Layer-1" stroke="#E4EBF4" stroke-width="4" fill="#E4EBF4" d="M24 90h52v8H24z"></path><path id="Layer-2" stroke="#D1DDEB" stroke-width="4" fill="#D1DDEB" d="M20 82h60v8H20z"></path><path id="Layer-3" stroke="#C1D0E0" stroke-width="4" fill="#C1D0E0" d="M16 74h68v8H16z"></path><path id="Layer-4" stroke="#A4B8CE" stroke-width="4" fill="#A4B8CE" d="M72.069 2L12 2.18v71.895h76V17.758L72.25 2.18z"></path><path id="Layer-5" stroke="#8DA1B7" stroke-width="4" fill="#8DA1B7" d="M88 18H72V2z"></path></g></g></svg> --}}
-                            <svg class="fill-current text-orange-400" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>inbox-download</title><g fill="text-orange-400"><path d="M0 2C0 .9.9 0 2 0h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm14 12h4V2H2v12h4c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2zM9 8V5h2v3h3l-4 4-4-4h3z"></path></g></svg>
+                            <svg class="fill-current text-yellow-500" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20"><title>inbox-download</title><g fill="text-orange-400"><path d="M0 2C0 .9.9 0 2 0h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm14 12h4V2H2v12h4c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2zM9 8V5h2v3h3l-4 4-4-4h3z"></path></g></svg>
                         </div>
                     </x-card>
 
@@ -170,15 +170,14 @@
 
                 {{-- Simple Carousel --}}
                 <div class="carousel" data-flickity='{ "autoPlay": 1500, "freeScroll": true, "wrapAround": true }'>
-                    <div class="carousel-cell bg-gradient-to-r from-teal-400 to-blue-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-green-400 to-blue-500 w-full h-64"></div>
                     <div class="carousel-cell bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 w-full h-64"></div>
-                    <div class="carousel-cell bg-gradient-to-r from-indigo-400 via-yellow-500 to-teal-500 w-full h-64"></div>
-                    <div class="carousel-cell bg-gradient-to-r from-red-400 via-orange-500 to-yellow-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-indigo-400 via-yellow-500 to-green-500 w-full h-64"></div>
+                    <div class="carousel-cell bg-gradient-to-r from-red-400 via-blue-500 to-yellow-500 w-full h-64"></div>
                     <div class="carousel-cell bg-gradient-to-r from-green-400 via-blue-500 to-indigo-500 w-full h-64"></div>
                 </div>
 
                 {{-- Advanced Carousel Coming Soon --}}
-
             </div>
 
             <!-- FOOTER -->
@@ -187,22 +186,22 @@
                     <hr class="mb-4 border-b-1 border-gray-300" />
                     <div class="flex flex-wrap items-center md:justify-between justify-center">
                         <div class="w-full md:w-4/12 px-4">
-                            <div class="text-sm text-gray-600 font-semibold py-1">
+                            <div class="text-sm text-gray-600 dark:text-gray-200 font-semibold py-1">
                                 Copyright © <span>2020</span>
                                 <a
                                     href="https://tailwindcss-dashboard.herokuapp.com/"
-                                    class="text-gray-600 hover:text-gray-800 text-sm font-semibold py-1"
+                                    class="hover:text-green-400 text-sm font-semibold py-1"
                                 >
                                     TALL Dashboard
                                 </a>
                             </div>
                         </div>
                         <div class="w-full md:w-8/12 px-4">
-                            <ul class="flex flex-wrap list-none md:justify-end  justify-center">
+                            <ul class="flex text-gray-700 dark:text-gray-200 flex-wrap list-none md:justify-end  justify-center">
                                 <li>
                                     <a
                                         href="https://tailwindcss.com"
-                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                        class="hover:text-green-400 text-sm font-semibold block py-1 px-3"
                                     >
                                         Tailwind CSS
                                     </a>
@@ -210,7 +209,7 @@
                                 <li>
                                     <a
                                         href="https://github.com/alpinejs/alpine"
-                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                        class="hover:text-green-400 text-sm font-semibold block py-1 px-3"
                                     >
                                         Alpine Js
                                     </a>
@@ -218,7 +217,7 @@
                                 <li>
                                     <a
                                         href="https://laravel.com"
-                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                        class="hover:text-green-400 text-sm font-semibold block py-1 px-3"
                                     >
                                         Laravel
                                     </a>
@@ -226,7 +225,7 @@
                                 <li>
                                     <a
                                         href="http://laravel-livewire.com/"
-                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                        class="hover:text-green-400 text-sm font-semibold block py-1 px-3"
                                     >
                                         Laravel Livewire
                                     </a>
@@ -234,7 +233,7 @@
                                 <li>
                                     <a
                                         href="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/LICENSE"
-                                        class="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
+                                        class="hover:text-green-400 text-sm font-semibold block py-1 px-3"
                                     >
                                         MIT License
                                     </a>

@@ -92,11 +92,32 @@
         }
 
     </style>
+
+    <script>
+        if (localStorage.theme === 'dark' || (!'theme' in localStorage && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.querySelector('html').classList.add('dark')
+        } else if (localStorage.theme === 'dark') {
+            document.querySelector('html').classList.add('dark')
+        }
+    </script>
 </head>
-<body class="bg-gray-100 h-screen antialiased leading-none">
+<body class="bg-gray-50 dark:bg-gray-400 h-screen antialiased leading-none">
 <div id="app">
     @yield('content')
 </div>
+
+<script>
+    document.getElementById('switchTheme').addEventListener('click', function() {
+        let htmlClasses = document.querySelector('html').classList;
+        if(localStorage.theme == 'dark') {
+            htmlClasses.remove('dark');
+            localStorage.removeItem('theme')
+        } else {
+            htmlClasses.add('dark');
+            localStorage.theme = 'dark';
+        }
+    });
+</script>
 
 <!-- Scripts -->
 <script src="{{ mix('js/app.js') }}"></script>

@@ -12,7 +12,7 @@
                 <li>
                     <a href="{{ $paginator->previousPageUrl() }}"
                        rel="prev"
-                       class="px-4 py-3 block text-blue-900 border border-r-0 border-gray-300 rounded-l hover:text-white hover:bg-blue-900 focus:outline-none focus:shadow-outline"
+                       class="px-4 py-3 block text-blue-900 border border-r-0 border-gray-300 rounded-l hover:text-white hover:bg-blue-900 focus:outline-none focus:ring"
                     >
                         @lang('pagination.previous')
                     </a>
@@ -24,7 +24,7 @@
                 <li>
                     <a href="{{ $paginator->nextPageUrl() }}"
                        rel="next"
-                       class="px-4 py-3 block text-blue-900 border border-gray-300 rounded-r hover:text-white hover:bg-blue-900 focus:outline-none focus:shadow-outline"
+                       class="px-4 py-3 block text-blue-900 border border-gray-300 rounded-r hover:text-white hover:bg-blue-900 focus:outline-none focus:ring"
                     >
                         @lang('pagination.next')
                     </a>

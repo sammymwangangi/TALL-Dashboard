@@ -13,8 +13,16 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <livewire:styles>
+
+    <script>
+        if (localStorage.theme === 'dark' || (!'theme' in localStorage && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.querySelector('html').classList.add('dark')
+        } else if (localStorage.theme === 'dark') {
+            document.querySelector('html').classList.add('dark')
+        }
+    </script>
 </head>
-<body class="bg-gray-100 h-screen antialiased leading-none">
+<body class="bg-gray-50 dark:bg-gray-900 h-screen antialiased leading-none">
     <div id="app">
         @include('layouts.navbar')
 
@@ -22,6 +30,18 @@
     </div>
 
     <!-- Scripts -->
+    <script>
+        document.getElementById('switchTheme').addEventListener('click', function() {
+            let htmlClasses = document.querySelector('html').classList;
+            if(localStorage.theme == 'dark') {
+                htmlClasses.remove('dark');
+                localStorage.removeItem('theme')
+            } else {
+                htmlClasses.add('dark');
+                localStorage.theme = 'dark';
+            }
+        });
+    </script>
     <livewire:scripts>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>

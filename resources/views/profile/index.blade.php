@@ -2,14 +2,17 @@
 
 @section('content')
     <div class="flex">
+        {{-- SIDEBAR --}}
         @include('layouts.sidebar')
+        {{-- END SIDEBAR --}}
 
-        <div class="p-4 w-full w-4/5 bg-gray-100 overflow-y-hidden">
+        {{-- BODY SECTION --}}
+        <div class="w-full bg-gray-50 dark:bg-gray-900 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
-                <h1 class="flex text-3xl text-gray-600">
-                    <a href="{{url('/')}}" class="text-3xl font-semibold">Dashboard</a>
-                    > <span class="text-green-400">Profile</span>
+                <h1 class="flex text-3xl">
+                    <a href="{{url('/')}}" class="text-3xl text-gray-600 dark:text-gray-400 font-semibold">Dashboard ></a>
+                    <span class="text-green-400">Profile</span>
                 </h1>
                 {{--HERO AREA--}}
                 <div class="w-full h-64 mt-6 relative" style="background-image: url('{{asset('images/Fluid-01.jpg')}}')">
@@ -407,11 +410,9 @@
                             <div class="mt-2 mb-6">
                                 <video
                                     id="my-video"
-                                    class="video-js"
+                                    class="video-js w-full h-64"
                                     controls
                                     preload="auto"
-                                    width="435"
-                                    height="300"
                                     data-setup="{}"
                                 >
                                     <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
