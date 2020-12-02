@@ -22,7 +22,7 @@
         }
     </script>
 </head>
-<body class="bg-gray-50 dark:bg-gray-900 h-screen antialiased leading-none">
+<body class="bg-gray-50 dark:bg-gray-800 h-screen antialiased leading-none">
     <div id="app">
         @include('layouts.navbar')
 

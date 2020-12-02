@@ -16,10 +16,12 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
+        "kdion4891/laravel-livewire-tables": "^1.6",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
-        "livewire/livewire": "^1.0"
+        "livewire/livewire": "^1.0",
+        "mediconesystems/livewire-datatables": "^0.4.3"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

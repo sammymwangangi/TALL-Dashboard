@@ -16,6 +16,7 @@ class HomeController extends Controller
             ->setXAxis([
                 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'
             ])
+            ->setColors(['#F59E0B'])
             ->setDataset([
                 [
                     'name'  =>  'Earnings',
@@ -27,7 +28,7 @@ class HomeController extends Controller
         $statics_chart = (new LarapexChart)
             ->setTitle('Statics')
             ->setType('area')
-            ->setColors(['#4e73df', '#1cc88a', '#36b9cc'])
+            ->setColors(['#1cc88a', '#4e73df', '#36b9cc'])
             ->setLabels(["Direct", "Referral", "Social"])
             ->setDataset([
                 [

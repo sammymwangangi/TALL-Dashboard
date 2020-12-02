@@ -1,5 +1,5 @@
 <div
-    class="my-4 p-4 bg-gradient-to-r from-green-400 to-blue-500 rounded"
+    class="my-4 p-4 bg-gradient-to-r from-blue-600 dark:from-blue-500 via-green-500 dark:via-green-600 to-yellow-500 dark:to-yellow-400 rounded"
     x-data="{
         pond: null
     }"
