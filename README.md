@@ -2,10 +2,13 @@
 <p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/new.png" width="800"></p>
 
 # Home Page(Dark Mode)
-<p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/dark.png" width="800"></p>
+<p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/foqus.png" width="800"></p>
 
 # User Profile Page
 <p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/profile.png" width="800"></p>
+
+# User Profile Page(Dark Mode)
+<p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/foqus-profile.png" width="800"></p>
 
 ## About TALL Dashboard (UNDER ACTIVE DEVELOPMENT)
 
