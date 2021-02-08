@@ -8,7 +8,7 @@
         {{-- END SIDEBAR --}}
 
         {{-- BODY SECTION --}}
-        <div class="w-full w-4/5 bg-gray-50 dark:bg-gray-800 overflow-y-hidden">
+        <div class="w-4/5 bg-gray-50 dark:bg-gray-800 overflow-y-hidden">
             @include('layouts.navbar')
             <div class="px-10 py-8">
                 {{-- HEADING --}}
