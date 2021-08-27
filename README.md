@@ -1,3 +1,8 @@
+### Buy me a coffee:coffee: 
+BITCOIN: `34VefkPu4sRYeAoyDSwrHBg7SWcmnM9B9n` <br>
+PATREON: https://patreon.com/portia_softwares <br>
+KO-FI: https://ko-fi.com/portiasoftwares
+
 # Home Page
 <p align="center"><img src="https://github.com/sammymwangangi/TALL-Dashboard/blob/master/public/images/new.png" width="800"></p>
 
